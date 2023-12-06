@@ -25,7 +25,7 @@ Sources utiles:
   Utilisation Solenoide https://www.makerguides.com/control-a-solenoid-with-arduino/
 
 Materiel necessaire
-          Plateau de jeu         30*60
+          Plateau de jeu         30*60cm
           Moteur x2              
           Bouton x2              
           Manette x2
