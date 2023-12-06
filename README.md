@@ -3,7 +3,7 @@ Projet Arduino Air Hockey
 Parties de robot:
                   Partie	                                  Statut
         Propulseur de palais sur le goal	                Pas fait
-        Bouton activation goal	                          Pas fait
+        Bouton activation goal	                              Pas fait
         Déplacement du goal avec moteur sur rails	        Pas fait
         Contrôle déplacements avec manette	              Pas fait
 
