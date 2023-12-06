@@ -33,9 +33,8 @@ Materiel necessaire
             Support metallique
             Tige helicoidale
             Support
-          Ressort x2            
-          Solenoide
-                 A 1K resistor
+          Ressort x2            Solenoide
+                A 1K resistor
                 TIP120 transistor (TIP102 will also work fine)
                 1N4004 diode (1N4001 also works)
                 Some batteries and connectors for solenoid power
@@ -47,13 +46,19 @@ Materiel necessaire
 
 Planning des seances:
 
-  1 -(13/12)- Deplacement
-  2 -(20/12)- Deplacement
+
+                                 Ewan                                         Pauline
+  1 -(13/12)-          Construction du rail                          Comment activer le ressort
+  2 -(20/12)-          Construction du rail/Controle moteur          Comment activer le ressort/brancher a l'arduino
 Pause pedagogique
-  3 -(10/01)- Deplacement
-  4 -(17/01)- Controle deplacement
-  5 -(24/01)- Impulsion
+  3 -(10/01)-           Controller Moteur                            Construction du goal/comment marche la manette
+  4 -(17/01)-                                 Resoudre eventuels problemes        
+  5 -(24/01)-                                 Mise en commun des codes
 Pause pedagogique
-  6 -(07/02)- Impulsion
-  7 -(14/02)-  Controle Impulsion
-  8 -(21/02)-  Montage Complet
+  6 -(07/02)-           Comment marche le bouton/Branchement bouton  Comment marche la manette/Branchement manette                        
+  7 -(14/02)-           Tout relier ensemble                          Tout relier ensemble
+  8 -(21/02)-           Correction de erreurs                         Correction de erreurs
+
+
+
+
