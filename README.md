@@ -22,14 +22,24 @@ Cahier de charges:
 
 Sources utiles:
   Construction rail https://www.instructables.com/DIY-IRONLESS-LINEAR-SERVO-MOTOR/
+  Utilisation Solenoide https://www.makerguides.com/control-a-solenoid-with-arduino/
 
 Materiel necessaire
           Plateau de jeu         30*60
           Moteur x2              
           Bouton x2              
           Manette x2
-          Rail x2               Support metallique 
-          Ressort x2            Solenoide
+          Rail x2               
+            Support metallique
+            Tige helicoidale
+            Support
+          Ressort x2            
+          Solenoide
+                 A 1K resistor
+                TIP120 transistor (TIP102 will also work fine)
+                1N4004 diode (1N4001 also works)
+                Some batteries and connectors for solenoid power
+                A solenoid with leads to connect to the breadboard
           Des cables
           Cache cables x2
           
