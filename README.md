@@ -24,12 +24,12 @@ Sources utiles:
   Construction rail https://www.instructables.com/DIY-IRONLESS-LINEAR-SERVO-MOTOR/
 
 Materiel necessaire
-          Plateau de jeu
-          Moteur x2
-          Bouton x2
+          Plateau de jeu         30*60
+          Moteur x2              
+          Bouton x2              
           Manette x2
-          Rail x2
-          Ressort x2
+          Rail x2               Support metallique 
+          Ressort x2            Solenoide
           Des cables
           Cache cables x2
           
