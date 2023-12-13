@@ -25,15 +25,15 @@ Sources utiles:
   Utilisation Solenoide https://www.makerguides.com/control-a-solenoid-with-arduino/
 
 Materiel necessaire
-          Plateau de jeu         30*60cm
-          Moteur x2              
+          Plateau de jeu         30*50cm
+          Moteur x2    (nema 17)           
           Bouton x2              
           Manette x2
           Rail x2               
             Support metallique
             Tige helicoidale
             Support
-          Ressort x2            Solenoide
+          Ressort x2            Solenoide ZYE1-0530Z
                 A 1K resistor
                 TIP120 transistor (TIP102 will also work fine)
                 1N4004 diode (1N4001 also works)
