@@ -1,5 +1,11 @@
 Projet Arduino Air Hockey
 
+Cahier de charges:
+
+Presentation du projet:
+Nous soutons realiser un Air-Hockey ou les goals sont commandés a distance grace a des mannettes de jeu. 
+Les goals se deplaceront seulement sur la largeur du plateau de jeu grace a un rail.
+
 Parties de robot:
                   Partie	                                  Statut
         Propulseur de palais sur le goal	                Pas fait
@@ -10,15 +16,12 @@ Parties de robot:
 
                   Deplacement                             Propulsion
         Construction du rail	                        Comment activer le ressort 
-        Contreoller le moteur (prog)                  Comment le brancher a l'arduino
+        Controler le moteur (prog)                    Comment le brancher a l'arduino
         Comment marche la manette                     Construction du goal
         Branchement de la manette                     Comment marche le bouton
         relier manette/goal                           Brancher le bouton a l'arduino
-                                                      Connecter boutton/ressort
+                                                      Connecter bouton/ressort
      
-
-
-Cahier de charges:
 
 Sources utiles:
   Construction rail https://www.instructables.com/DIY-IRONLESS-LINEAR-SERVO-MOTOR/
