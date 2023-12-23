@@ -1,0 +1,36 @@
+
+int enA = 9;
+int in1 = 8;
+int in2 = 7;
+
+void setup() {
+  pinMode(enA , OUTPUT);
+  pinMode(in1 , OUTPUT);
+  pinMode(in2 , OUTPUT);
+
+  digitalWrite( in1, LOW);
+  digitalWrite( in2, LOW);
+  
+}
+
+
+void TourneADroite(int i){
+  digitalWrite(in1, LOW);
+  digitalWrite( in2, HIGH);
+  analogWrite(enA,i);
+}
+void TourneAGauche(int i){
+  digitalWrite(in1, HIGH);
+  digitalWrite( in2, LOW);
+  analogWrite(enA,i);
+}
+void loop() {
+  TourneADroite(255);
+  delay(2000);
+  TourneAGauche(0);
+  delay(2000);
+  TourneAGauche(255);
+  delay(2000);
+
+
+}
