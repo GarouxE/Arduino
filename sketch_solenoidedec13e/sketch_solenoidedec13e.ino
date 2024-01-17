@@ -5,7 +5,7 @@ int val=0;
 void setup() {
   pinMode(bouton, INPUT);
   pinMode(broche,OUTPUT);
-  digitalWrite(broche,LOW);
+  digitalWrite(broche,0);
   Serial.begin(9600);
 
 }
@@ -13,14 +13,16 @@ void setup() {
 
 void loop() {
   val=digitalRead(bouton);
-  if (val==HIGH){
-    digitalWrite(broche,LOW);
+  if (val==LOW){
+    digitalWrite(broche,1);
     Serial.println("1");
-    delay(500);
+    delay(300);
     
   }
   else{
     Serial.println("2");
+    digitalWrite(broche,0);
+    delay(300);
   }
   
   
