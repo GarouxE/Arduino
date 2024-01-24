@@ -1,0 +1,52 @@
+
+int enA = 9;
+int in1 = 8;
+int in2 = 7;
+int bouton1= 2;
+int bouton2 = 3;
+int val = 0;
+
+void setup() {
+  pinMode(enA , OUTPUT);
+  pinMode(in1 , OUTPUT);
+  pinMode(in2 , OUTPUT);
+
+  digitalWrite( in1, LOW);
+  digitalWrite( in2, LOW);
+  Serial.begin(9600);
+}
+
+
+void directionControlRight(){
+  analogWrite(enA,255);
+  digitalWrite(in1, HIGH);
+  digitalWrite( in2, LOW);
+}
+
+void directionControlLeft(){
+  analogWrite(enA,255);
+  digitalWrite(in1, LOW);
+  digitalWrite( in2, HIGH);
+}
+
+
+
+
+void loop() {
+;
+  if (digitalRead(bouton1)==LOW){
+    Serial.println("1");
+    directionControlRight();
+
+    
+  }
+  else if((digitalRead(bouton2)==LOW)){
+    directionControlLeft();
+   }
+  else{
+  }
+
+  
+  
+
+}
