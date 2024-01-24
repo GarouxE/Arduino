@@ -1,0 +1,59 @@
+
+int enA = 9;
+int in1 = 8;
+int in2 = 7;
+int bouton1= 2;
+int bouton2 = 3;
+int bouton3 = 1;
+int val = 0;
+const int broche = 13;
+
+void setup() {
+  pinMode(enA , OUTPUT);
+  pinMode(in1 , OUTPUT);
+  pinMode(in2 , OUTPUT);
+  pinMode(broche , OUTPUT);
+
+  digitalWrite( in1, LOW);
+  digitalWrite( in2, LOW);
+  Serial.begin(9600);
+  digitalWrite(broche,0);
+}
+
+
+void directionControlRight(){
+  analogWrite(enA,255);
+  digitalWrite(in1, HIGH);
+  digitalWrite( in2, LOW);
+}
+
+void directionControlLeft(){
+  analogWrite(enA,255);
+  digitalWrite(in1, LOW);
+  digitalWrite( in2, HIGH);
+}
+
+
+
+
+void loop() {
+;
+  if (digitalRead(bouton1)==LOW){
+    Serial.println("1");
+    directionControlRight();
+
+    
+  }
+  else if((digitalRead(bouton2)==LOW)){
+    directionControlLeft();
+   }
+   else if((digitalRead(bouton3)==LOW)){
+    digitalWrite(broche,1);
+   }
+  else{
+  }
+
+  
+  
+
+}
