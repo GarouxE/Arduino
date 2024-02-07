@@ -10,7 +10,7 @@ De plus, les goals seront equipés d'un ressort pour propulser le palet, ce ress
 Structure du projet en 2 parties:
 
             1/ Le Deplacement                               2/ La Propulsion
-        - Construction du rail	                        - Comment activer le ressort 
+        - Construction du rail	                    - Comment activer le ressort 
         - Controler le moteur (prog)                    - Comment le brancher a l'arduino
         - Comment marche la manette                     - Construction du goal
         - Branchement de la manette                     - Comment marche le bouton
