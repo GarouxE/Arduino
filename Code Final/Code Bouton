@@ -1,0 +1,70 @@
+
+int enA = 9;
+int in1 = 8;
+int in2 = 7;
+int bouton1= 2;
+int bouton2 = 3;
+int bouton3 = 4;
+const int broche = 11;
+int capteur1 = 12;
+int capteur2 =13;
+
+void setup() {
+  pinMode(enA , OUTPUT);
+  pinMode(in1 , OUTPUT);
+  pinMode(in2 , OUTPUT);
+
+  pinMode(capteur1 , OUTPUT);
+  pinMode(capteur2 , OUTPUT);
+
+  pinMode(broche,OUTPUT);
+  digitalWrite(broche,0);
+
+
+  digitalWrite( in1, LOW);
+  digitalWrite( in2, LOW);
+
+  Serial.begin(9600);
+  
+}
+
+
+void TourneADroite(int i){
+  digitalWrite(in1, LOW);
+  digitalWrite( in2, HIGH);
+  analogWrite(enA,i);
+}
+void TourneAGauche(int i){
+  digitalWrite(in1, HIGH);
+  digitalWrite( in2, LOW);
+  analogWrite(enA,i);
+}
+void loop() {
+ 
+  
+  if ((digitalRead(bouton1)==LOW)&&(digitalRead(capteur2)==1)){
+    Serial.println("100");
+    TourneADroite(250); 
+    digitalWrite(bouton3, LOW);
+   
+
+  }
+  if((digitalRead(bouton2)==LOW)&&(digitalRead(capteur1)==1)){
+    digitalWrite(bouton3, LOW);
+    TourneAGauche(250);
+    Serial.println("200"); 
+    
+  }
+  if((digitalRead(bouton3)==LOW)){
+    digitalWrite(broche,1);
+    delay(300);
+    digitalWrite(broche,0);
+
+    
+  }
+ 
+    
+  if((digitalRead(bouton2)==HIGH)&&((digitalRead(bouton1)==HIGH))){
+  analogWrite(enA,0);
+  }
+  }
